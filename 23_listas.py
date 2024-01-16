@@ -134,16 +134,137 @@
 # Matrizes e listas de listas
 #uma lista pode  conter uma lista dentro dela
 #vamos subdividir entre lista e colunas
-idades = [[1, 2, 3, 4, 5],
+'''idades = [[1, 2, 3, 4, 5],
             [6, 7, 8, 9, 10],
-            [11, 12, 13, 14, 14, 15]]
+            [11, 12, 13, 14, 14, 15]]'''
 
 #No python não precisa necessariamente,
 #ter uma matriz pode ter listas de listas
 # lista dentro de lista bidimensional ou  trimedissional.
 
 # para iterar este elementos
-for i in range(0, len(idades)):
+'''for i in range(0, len(idades)):
     #print(idades [i])
     for j in range(0, len(idades[i])):
-        print(idades[i] [j])
+        print(idades[i] [j])'''
+
+#Porque uma lista é igual a outra.
+# x = 2
+# y = x
+# y = 3
+#print(x)
+#print(y)
+#x = 2
+#y = x
+#print(id(x))
+#print(id(y))
+# #print(hex(id(x)))
+#print(hex(id(x)))
+#x = [1, 2, 3]
+#print(hex(id(x)))
+#x = [1, 2, 3]
+#y = x
+#print(hex(id(x)))
+#print(hex(id(y)))
+
+'''x = [1, 2, 3]
+y = x
+y[0] = 0
+
+print(x)
+print(y)
+Algo não esperado'''
+'''x = [1, 2, 3]
+y = x.copy()
+y[0] = 0
+
+print(x)
+print(y)
+#dois valores diferente'''
+'''x = [1, 2, 3]
+y = x
+z = x.copy()
+y[0] = 0
+
+print(hex(id(x)))
+print(hex(id(y)))
+print(hex(id(z)))
+
+#.copy'''
+
+#Lista permite que tenha dados repetidos --> ,
+#Conjuntos não permite que tenha dados repetidos
+'''x ={1, 2, 3, 4, 5,}
+y ={5, 7, 8, 8, 8,}
+
+x = x.difference(y)
+print(x)'''
+
+#Lista permite que tenha dados repetidos --> ,
+#Conjuntos não permite que tenha dados repetidos
+#set conjuntos
+'''x =[1,1,1,2,2,3,4,5]
+x = set(x)
+print(x)'''
+#Lista permite que tenha dados repetidos --> ,
+#Conjuntos não permite que tenha dados repetidos
+#set conjuntos
+#criar um set diretamente
+'''x ={1,1,2,3,4,5}
+print(x)'''
+
+
+#Lista permite que tenha dados repetidos --> ,
+#Conjuntos não permite que tenha dados repetidos
+#set conjuntos
+#criar um set diretamente
+#união de conjuntos
+
+'''x = {1,2,3,4,5}
+y = {6,7,8,9,10}
+
+t = x.union(y)
+print(t)'''
+
+#Lista permite que tenha dados repetidos --> ,
+#Conjuntos não permite que tenha dados repetidos
+#set conjuntos
+#criar um set diretamente
+#união de conjuntos
+#intersessão (intersection)
+
+'''x = {1,7,3,4,5}
+y = {5,7,8,9,10}
+
+x = x.intersection(y)
+print(x)'''
+
+#Lista permite que tenha dados repetidos --> ,
+#Conjuntos não permite que tenha dados repetidos
+#set conjuntos
+#criar um set diretamente
+#união de conjuntos
+#intersessão (intersection)
+#diferença
+
+'''x = {1,2,3,4,5}
+y = {5,7,8,9,10}
+
+x = x.difference(y)
+print(x)'''
+
+#Conjuntos não permite que tenha dados repetidos
+#set conjuntos
+#criar um set diretamente
+#união de conjuntos
+#intersessão (intersection)
+#diferença
+#symmetric_difference , pega os dois conjuntos e vai retornar a ,
+#soma dos conjunto,igual união a detalhe interção não conta não entra
+#porque aparece nos dois conjuntos
+
+x = {1,2,3,4,5}
+y = {5,7,8,9,10}
+
+x = x.symmetric_difference(y)
+print(x)
