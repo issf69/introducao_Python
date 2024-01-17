@@ -16,7 +16,7 @@ Créditos a Pythonando.
 <br>
 
 <p align="center">
-  <img alt="projeto Pythonando" src="https://ibb.co/X5PnCHvh="100%">
+  <img alt="projeto Pythonando" src="https://th.bing.com/th/id/R.dbb1de4e03ea1640cdc142b08304b428?rik=RoMOHBhIAnJdVg&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f7%2fPython-PNG-Image.png&ehk=vZxZFg%2bn4fIlV9lSxCNq7p3v1ViFkwa44dwaAH3RTfI%3d&risl=&pid=ImgRaw&r=0"5%">
 </p>
 
 ## 🚀 Tecnologias
@@ -32,4 +32,4 @@ Introdução ao Python.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://plataforma.pythonando.com.br/). 
+Você pode visualizar o layout do projeto através [DESSE LINK](https://plataforma.pythonando.com.br/usuarios/login/). 
