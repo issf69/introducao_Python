@@ -263,8 +263,53 @@ print(x)'''
 #soma dos conjunto,igual união a detalhe interção não conta não entra
 #porque aparece nos dois conjuntos
 
-x = {1,2,3,4,5}
+'''x = {1,2,3,4,5}
 y = {5,7,8,9,10}
 
 x = x.symmetric_difference(y)
-print(x)
+print(x)'''
+
+# Arquivos #1  armazenamento persistente dos dados,
+# Abre o arquivo no modo de leitura ('r')
+
+'''arquivo = open('pessoas.txt', 'a')
+i = 0
+while True:
+    if i > 4:
+        break
+    arquivo.write(input('Digite o nome da pessoa') + " " + input("Digite a idade") + "\n")
+    i += 1'''
+
+'''arquivo = open('pessoas.txt', 'r')
+
+resultados = arquivo.readlines()
+x = []
+for i in resultados:
+    x.append(i.split())
+
+print(x[1][1])
+arquivo.close()'''
+
+# Arquivos #1  armazenamento persistente dos dados,
+# Abre o arquivo no modo de leitura ('r')
+'''with open('pessoas.text', 'r') as arq:
+    x = arq.read()
+    print'''
+# Abre o arquivo no modo de leitura ('r')
+'''arquivo = open('pessoas.txt', 'r')
+
+# Lê todas as linhas do arquivo e armazena em 'resultados'
+resultados = arquivo.readlines()
+
+# Cria uma lista vazia 'x' e divide cada linha em palavras
+x = [linha.split() for linha in resultados]
+
+# Fecha o arquivo após a leitura
+arquivo.close()
+
+# Imprime o elemento na segunda coluna da segunda linha (considerando que o índice começa em 0)
+print(x[1][1])'''
+
+with open('pessoas.text', 'r') as arq:
+    x = arq.read()
+    print(x)

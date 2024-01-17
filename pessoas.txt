@@ -1,0 +1,22 @@
+ MariaveraAgthaJoaquimMauroCleusaVaniaBrunacaiojoaomateusmarcos
+vera
+joaquim
+Matheus
+ maria
+pedro
+caio
+joao
+vera
+maria20 caio27vera30mateus50bruno30caio20
+vera30
+mara50
+pedro30
+marcos21
+maria 20
+vera 50
+pedro 30 guru
+10 marcos
+30 veronica
+with open('pessoas.text', 'r') as arq:
+    x = arq.read()
+    print(x)
